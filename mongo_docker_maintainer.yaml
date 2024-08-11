@@ -13,7 +13,7 @@ services:
       - ./mongodb_data:/data/db
   mongo-express:
     container_name: mongo-express
-    image: mongo-express:0.54.0
+    image: mongo-express:latest
     depends_on:
       - mongo_db
     environment:
