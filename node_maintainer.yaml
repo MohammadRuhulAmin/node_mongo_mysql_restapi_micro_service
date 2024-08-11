@@ -5,7 +5,7 @@ services:
     image: mongo:latest
     environment:
       - MONGO_INITDB_ROOT_USERNAME=admin
-      - MONGO_INITDB_DATABASE=employee
+      - MONGO_INITDB_DATABASE=crud
       - MONGO_INITDB_ROOT_PASSWORD=pass
     ports:
       - 27017:27017
